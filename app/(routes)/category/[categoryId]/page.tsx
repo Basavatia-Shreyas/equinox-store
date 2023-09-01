@@ -11,6 +11,7 @@ import getColors from '@/actions/get-colors';
 
 import Filter from './components/filter';
 import MobileFilters from './components/mobile-filters';
+import { SeparatorVertical } from 'lucide-react';
 
 export const revalidate = 0;
 
@@ -40,7 +41,7 @@ const CategoryPage: React.FC<CategoryPageProps> = async ({
   return (
     <div className="bg-white">
       <Container>
-        <Billboard 
+        <Billboard
           data={category.billboard}
         />
         <div className="px-4 sm:px-6 lg:px-8 pb-24">

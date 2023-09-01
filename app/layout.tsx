@@ -1,4 +1,4 @@
-import { Urbanist } from 'next/font/google'
+import { Urbanist, Volkhov } from 'next/font/google'
 
 import ModalProvider from '@/providers/modal-provider'
 import ToastProvider from '@/providers/toast-provider'
@@ -7,7 +7,7 @@ import Footer from '@/components/footer'
 
 import './globals.css'
 
-const font = Urbanist({ subsets: ['latin'] })
+const font = Volkhov({ weight: "400", subsets: ['latin'] })
 
 export const metadata = {
   title: 'Store',
